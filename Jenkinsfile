@@ -6,5 +6,10 @@ pipeline {
         sh 'echo "this is me jenkins"'
       }
     }
+    stage('testing') {
+      steps {
+        sh 'echo "testing "'
+      }
+    }
   }
 }
